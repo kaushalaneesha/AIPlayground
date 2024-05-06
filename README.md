@@ -31,10 +31,13 @@ This is a web-based tool written in PHP that lets you simulate dice rolls. You c
 The page might show something like:
 
 ```
-Rolled 2d6: [5, 4] (Total: 9)
+You asked for 2 dices, with 6 sides each, from 1 to 6.
+The result is:
+Value of the rolled dice: 6
+Value of the rolled dice: 5
+Total count of dice rolled: 11
 ```
 
-**Further Enhancements (Optional):**
+**Further Enhancements:**
 
 * Implement error handling for invalid inputs (e.g., non-positive numbers for dice count or sides). This can be done using PHP's built-in functions for data validation.
-* Allow for different die types (e.g., d4, d8, d10, etc.) by adding options to the HTML form and modifying the PHP script to handle the different dice types. 
